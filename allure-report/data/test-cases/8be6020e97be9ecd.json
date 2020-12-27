@@ -1,0 +1,98 @@
+{
+  "uid" : "8be6020e97be9ecd",
+  "name" : "test_sub[decimal]",
+  "fullName" : "testcase.test_calu.Test_claul#test_sub",
+  "historyId" : "8a89b26fd975efb8400c08ccdb21d185",
+  "time" : {
+    "start" : 1609066507297,
+    "stop" : 1609066507297,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beg",
+    "time" : {
+      "start" : 1609066507183,
+      "stop" : 1609066507183,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "beg::0",
+    "time" : {
+      "start" : 1609066507310,
+      "stop" : 1609066507310,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_calu"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_claul"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-7G8UPLU"
+  }, {
+    "name" : "thread",
+    "value" : "16596-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_calu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "0.2"
+  }, {
+    "name" : "b",
+    "value" : "0.1"
+  }, {
+    "name" : "excepted",
+    "value" : "0.1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=2)" ]
+  },
+  "source" : "8be6020e97be9ecd.json",
+  "parameterValues" : [ "0.2", "0.1", "0.1" ]
+}

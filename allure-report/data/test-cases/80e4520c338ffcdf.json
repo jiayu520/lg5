@@ -1,0 +1,104 @@
+{
+  "uid" : "80e4520c338ffcdf",
+  "name" : "test_add[int]",
+  "fullName" : "testcase.test_calu.Test_claul#test_add",
+  "historyId" : "099e4e896cc26129908cb0209eaf916f",
+  "time" : {
+    "start" : 1609066507184,
+    "stop" : 1609066507184,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beg",
+    "time" : {
+      "start" : 1609066507183,
+      "stop" : 1609066507183,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "beg::0",
+    "time" : {
+      "start" : 1609066507310,
+      "stop" : 1609066507310,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('beg')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_calu"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_claul"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-7G8UPLU"
+  }, {
+    "name" : "thread",
+    "value" : "16596-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_calu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "2"
+  }, {
+    "name" : "b",
+    "value" : "3"
+  }, {
+    "name" : "excepted",
+    "value" : "5"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=1)", "smoke", "@pytest.mark.usefixtures('beg')" ]
+  },
+  "source" : "80e4520c338ffcdf.json",
+  "parameterValues" : [ "2", "3", "5" ]
+}

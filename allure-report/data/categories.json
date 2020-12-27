@@ -1,0 +1,64 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 0.30000000000000004 == 0.3\n  +0.30000000000000004\n  -0.3",
+      "children" : [ {
+        "name" : "test_add[decimal]",
+        "uid" : "c76d5088f249dc17",
+        "parentUid" : "320e36680fe67cbd9cff890a7f13a349",
+        "status" : "failed",
+        "time" : {
+          "start" : 1609066507189,
+          "stop" : 1609066507189,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0.1", "0.2", "0.3" ]
+      } ],
+      "uid" : "320e36680fe67cbd9cff890a7f13a349"
+    }, {
+      "name" : "AssertionError: assert 2.0 == 0.02\n  +2.0\n  -0.02",
+      "children" : [ {
+        "name" : "test_div[decimal]",
+        "uid" : "bbf63649b4cf71b0",
+        "parentUid" : "47ca9febf47f067b6283b614539c49ea",
+        "status" : "failed",
+        "time" : {
+          "start" : 1609066507257,
+          "stop" : 1609066507257,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0.2", "0.1", "0.02" ]
+      } ],
+      "uid" : "47ca9febf47f067b6283b614539c49ea"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "ZeroDivisionError: division by zero",
+      "children" : [ {
+        "name" : "test_div[zero]",
+        "uid" : "d1d0bc9d7b79070b",
+        "parentUid" : "23d45e2b95d72e21c04056363d6f717f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609066507284,
+          "stop" : 1609066507284,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "4", "0", "0" ]
+      } ],
+      "uid" : "23d45e2b95d72e21c04056363d6f717f"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

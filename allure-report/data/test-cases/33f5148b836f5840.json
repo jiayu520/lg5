@@ -1,0 +1,95 @@
+{
+  "uid" : "33f5148b836f5840",
+  "name" : "test_div[int]",
+  "fullName" : "testcase.test_calu.Test_claul#test_div",
+  "historyId" : "74cff0d1bdbb1e1b4b30e1ef19987485",
+  "time" : {
+    "start" : 1609066507252,
+    "stop" : 1609066507252,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beg",
+    "time" : {
+      "start" : 1609066507183,
+      "stop" : 1609066507183,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "beg::0",
+    "time" : {
+      "start" : 1609066507310,
+      "stop" : 1609066507310,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_calu"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_claul"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-7G8UPLU"
+  }, {
+    "name" : "thread",
+    "value" : "16596-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_calu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "6"
+  }, {
+    "name" : "b",
+    "value" : "2"
+  }, {
+    "name" : "excepted",
+    "value" : "3"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "33f5148b836f5840.json",
+  "parameterValues" : [ "6", "2", "3" ]
+}
